@@ -95,8 +95,8 @@ figure{
 
 }
 .fill2 {
-    background: #3A5B67;
-    height: 400px;
+    background: #475B66;
+    height: 500px;
 
 }
 .polosa{
@@ -115,8 +115,8 @@ figure{
     height: 140px;
     position: absolute;
     width: 990px;
-    top:380px;
-    background-repeat: no-repeat;
+    top:480px;
+    background-repeat: repeat-x;
 }
 .textur{
     background: url("image/texture.png")#f2f2f2;
@@ -292,4 +292,37 @@ img.foo:hover{
     padding-left: 23px;
     position: absolute;
     top: 110px;
+}
+.column p{
+    color:#536670;
+    text-align:justify;
+    margin:0px;
+}
+.column h3{
+    color:#531604;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.column{
+    width:205px;
+    float:left;
+    margin: 10px 10px 0 28px;
+}
+div.control{
+    position: absolute;
+    top:325px;
+}
+.slides1 img{
+    -webkit-box-shadow:0 6px 4px -4px;
+    box-shadow: 0 6px 8px -8px #3f515a;
+}
+p.read_more{
+    color:#a58648;
+    margin-top:5px;
+}
+.read_more span{
+    color: #531604;
+}
+.column a{
+    text-decoration: none;
 }
